@@ -1,0 +1,65 @@
+/* body {
+margin: 0;
+
+}
+
+.a {
+    display: flex;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+    border: 1px solid rgb(0, 0, 0);
+    width: 50%; 
+    justify-content:space-around ;
+    margin: center;
+}
+.a > div {
+
+  
+    background-color: #40c3d5;
+    margin: 10px;
+    padding: 20px;
+    /* font-size: 30px; */
+   
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    body {
+        display: flex;
+        justify-content: center;
+    }
+    
+    .container {
+        width: 90%;
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+
+    .card {
+        width: 250px;
+        height: 300px;
+        border: 1px solid black;
+
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        border-radius: 20px;
+    }
+     img {
+        width: 90%;
+        height: 50%;
+        border-radius: 15px;
+
+
+     }
+.textBox {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: start;
+}
